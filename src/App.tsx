@@ -26,17 +26,12 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-light font-sans text-slate-dark selection:bg-electric selection:text-white bg-grain">
 
-      {/* Demo Banner */}
-      <div className="fixed top-0 left-0 right-0 bg-yellow-500 text-black text-center py-2 z-50 font-bold">
-        This is an Inspired Website, I just made Minor Changes to UI & This is a Demo Site
-      </div>
-
       {/* Navigation */}
       <motion.nav
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className="relative z-50 w-full pt-16 pb-4 px-8 md:px-16 flex items-center justify-between bg-transparent absolute top-0"
+        className="relative z-50 w-full pt-0 pb-4 px-8 md:px-16 flex items-center justify-between bg-transparent absolute top-0"
       >
         <div className="flex items-center justify-center">
           <img src="/logo.png" alt="Logo" className="w-12 h-12 rounded-full ring-4 ring-white/50 drop-shadow-md transform -skew-x-12 object-cover" />
