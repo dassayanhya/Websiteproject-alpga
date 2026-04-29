@@ -71,7 +71,7 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="text-7xl md:text-8xl lg:text-[7.5rem] text-[#1e2329] uppercase mb-6 leading-[1.1] brush-text drop-shadow-sm whitespace-nowrap" 
           >
-            Elision Roleplay
+            Los Santos
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
