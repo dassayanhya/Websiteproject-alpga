@@ -31,7 +31,7 @@ export default function App() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className="relative z-50 w-full pt-0 pb-4 px-8 md:px-16 flex items-center justify-between bg-transparent absolute top-0"
+        className="relative z-50 w-full pt-0 pb-4 px-8 md:px-16 flex items-center justify-between bg-transparent absolute top-4"
       >
         <div className="flex items-center justify-center">
           <img src="/logo.png" alt="Logo" className="w-12 h-12 rounded-full ring-4 ring-white/50 drop-shadow-md transform -skew-x-12 object-cover" />
